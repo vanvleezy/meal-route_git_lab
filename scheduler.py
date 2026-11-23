@@ -1,7 +1,7 @@
 from config import DEFAULT_STOP_LIMIT, DEFAULT_REGION
 
 def build_route_summary(day, region=DEFAULT_REGION):
-    stops = DEFAULT_STOP_LIMIT
+    stops = DEFAULT_STOP_LIMIT + 1
     return f"MealRoute schedule for {day} in {region}: {stops} delivery stops planned."
 
 def can_add_stop(current_stop_count):
