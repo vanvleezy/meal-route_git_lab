@@ -1,6 +1,4 @@
-
-DEFAULT_REGION = "West District"
-DEFAULT_REGION = "central District"
+DEFAULT_REGION = "Central District"
 DEFAULT_STOP_LIMIT = 6
 DRIVER_MESSAGE_PREFIX = "Hello"
 RELEASE_CHANNEL = "monthly"
